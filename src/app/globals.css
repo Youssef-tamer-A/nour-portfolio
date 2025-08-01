@@ -185,3 +185,67 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #a1a1a1;
 }
+
+/* Responsive improvements */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Smaller spacing on mobile */
+  .space-y-6 > * + * {
+    margin-top: 1rem;
+  }
+  
+  /* Better button sizing on mobile */
+  .btn-primary {
+    font-size: 0.875rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  /* Adjust hero section height on mobile */
+  .min-h-screen {
+    min-height: 100svh; /* Uses small viewport height */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Better text sizing for tablets */
+  .animate-slide-in-left {
+    animation-duration: 0.6s;
+  }
+  
+  /* Adjust grid gaps */
+  .gap-8 {
+    gap: 1.5rem;
+  }
+}
+
+/* Fix for very small screens */
+@media (max-width: 375px) {
+  .text-3xl {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+  
+  .px-6 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Improved hover effects for touch devices */
+@media (hover: none) {
+  .hover-lift:hover {
+    transform: none;
+  }
+  
+  .hover\:scale-105:hover {
+    transform: none;
+  }
+  
+  .hover\:scale-115:hover {
+    transform: scale(1.1);
+  }
+}
