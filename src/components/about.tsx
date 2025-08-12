@@ -12,28 +12,17 @@ function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-gray-900">
-              Passionate Data Scientist & Analytics Expert
+              Passionate Entry-Level Data Scientist
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Hello! I&apos;m Nour Ahmed, a dedicated Data Scientist with a passion for 
-              extracting meaningful insights from complex datasets. With expertise in 
-              machine learning, statistical analysis, and data visualization, I help 
-              organizations make data-driven decisions.
+              Digital Egypt Pioneers Initiative (DEPI) has provided opportunities to explore Python, statistics, linear algebra, and machine learning methods as part of an AI internship. This role emphasizes applying analytical skills to solve complex problems and supports a growing interest in artificial intelligence and data science. 
             </p>
             <p className="text-gray-600 leading-relaxed">
-              I specialize in building predictive models, developing automated analytics 
-              pipelines, and creating compelling data stories that drive business impact. 
-              My approach combines technical expertise with business acumen to deliver 
-              solutions that truly matter.
+              Mansoura University&apos;s Bachelor of Artificial Intelligence program complements practical experience by deepening knowledge in computer science fundamentals. Aiming to merge technical proficiency in tools like Python, Jupyter, and Azure Machine Learning with a commitment to leveraging AI for innovative solutions.
             </p>
-            
             <div className="grid grid-cols-2 gap-6 mt-8">
-              <div className="text-center p-4 bg-blue-50 rounded-lg">
-                <div className="text-3xl font-bold text-blue-600">3+</div>
-                <div className="text-gray-600">Years Experience</div>
-              </div>
               <div className="text-center p-4 bg-green-50 rounded-lg">
-                <div className="text-3xl font-bold text-green-600">50+</div>
+                <div className="text-3xl font-bold text-green-600">7</div>
                 <div className="text-gray-600">Projects Completed</div>
               </div>
             </div>

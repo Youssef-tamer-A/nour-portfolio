@@ -31,7 +31,7 @@ export default function Home() {
               </div>
               <div className="overflow-hidden">
                 <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-700 font-medium animate-slide-in-left" style={{animationDelay: '0.2s'}}>
-                  Data Scientist & Analytics Expert
+                  Junior Data Scientist
                 </h2>
               </div>
               <div className="overflow-hidden">
@@ -100,7 +100,7 @@ export default function Home() {
       
       {/* Contact Section */}
       <Contact />
-      
+
       {/* Scroll to Top Button */}
       <ScrollToTop />
     </div>

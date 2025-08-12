@@ -4,40 +4,10 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Senior Data Scientist",
-      company: "Tech Solutions Inc.",
-      period: "2022 - Present",
-      location: "Remote",
-      description: "Leading data science initiatives and building ML models for business optimization.",
-      achievements: [
-        "Increased revenue by 15% through predictive analytics implementations",
-        "Built and deployed 5+ machine learning models in production",
-        "Led a team of 3 junior data scientists",
-        "Developed automated reporting systems reducing manual work by 80%"
-      ],
-      technologies: ["Python", "TensorFlow", "AWS", "Docker", "Apache Spark"]
-    },
-    {
-      id: 2,
-      title: "Data Scientist",
-      company: "Analytics Pro",
-      period: "2021 - 2022",
-      location: "Cairo, Egypt",
-      description: "Focused on customer analytics and business intelligence solutions.",
-      achievements: [
-        "Developed customer segmentation models improving marketing ROI by 25%",
-        "Created real-time dashboards for executive decision making",
-        "Implemented A/B testing framework for product optimization",
-        "Reduced customer churn by 12% through predictive modeling"
-      ],
-      technologies: ["R", "Python", "Tableau", "SQL", "Google Analytics"]
-    },
-    {
-      id: 3,
       title: "Junior Data Analyst",
-      company: "Data Insights Co.",
-      period: "2020 - 2021",
-      location: "Cairo, Egypt",
+      company: "self-learning-projects",
+      period: "2024 - 2025",
+      location: "Mansoura University",
       description: "Started my data science journey focusing on data analysis and visualization.",
       achievements: [
         "Built comprehensive data pipelines for business reporting",
@@ -51,25 +21,15 @@ function Experience() {
 
   const education = [
     {
-      degree: "Master of Science in Data Science",
-      institution: "Cairo University",
-      period: "2019 - 2021",
-      details: "Specialized in Machine Learning and Statistical Analysis"
-    },
-    {
       degree: "Bachelor of Science in Computer Science",
-      institution: "Cairo University",
-      period: "2015 - 2019",
+      institution: "Mansoura University",
+      period: "2023 - 2027",
       details: "Focus on Software Engineering and Database Systems"
     }
   ]
 
   const certifications = [
-    "AWS Certified Machine Learning - Specialty",
-    "Google Analytics Individual Qualification",
-    "Microsoft Azure Data Scientist Associate",
-    "Tableau Desktop Specialist",
-    "TensorFlow Developer Certificate"
+    "Tableau Desktop Specialist"
   ]
 
   return (
