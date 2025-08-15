@@ -1,10 +1,11 @@
 import React from 'react'
+import Link from 'next/link';
 
 function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Junior Data Analyst",
+      title: "Junior Data Scientist",
       company: "self-learning-projects",
       period: "2024 - 2025",
       location: "Mansoura University",
@@ -29,7 +30,8 @@ function Experience() {
   ]
 
   const certifications = [
-    "Tableau Desktop Specialist"
+    ["Data Analyst in Python", "https://www.datacamp.com/completed/statement-of-accomplishment/track/72da53685a875a3a507a363ecf90973173cf3fb0"],
+    ["Hypothesis Testing in Python", "https://www.datacamp.com/completed/statement-of-accomplishment/course/cc8e82810718b99ee45ac91c7206a69ee583d8af"]
   ]
 
   return (
@@ -139,7 +141,14 @@ function Experience() {
                   {certifications.map((cert, index) => (
                     <li key={index} className="text-sm text-gray-700 flex items-start">
                       <span className="text-blue-500 mr-3 mt-1">🎖️</span>
-                      {cert}
+                      <Link 
+                        href={cert[1]} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                      >
+                        {cert[0]}
+                      </Link>
                     </li>
                   ))}
                 </ul>

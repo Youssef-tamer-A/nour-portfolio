@@ -6,9 +6,9 @@ function Skills() {
     {
       category: "Programming Languages",
       items: [
-        { name: "Python", level: 80, icon: <Image src="/images/icons/Python.png" alt="Python" width={50} height={50} /> },
+        { name: "Python", level: 80, icon: <Image src="/images/icons/python.png" alt="Python" width={50} height={50} /> },
         { name: "C#", level: 20, icon: <Image src="/images/icons/Csharp.png" alt="C#" width={50} height={50} />},
-        { name: "SQL", level: 60, icon: <Image src="/images/icons/Sql.png" alt="SQL" width={50} height={50} /> },
+        { name: "SQL", level: 60, icon: <Image src="/images/icons/SQL.png" alt="SQL" width={50} height={50} /> },
       ]
     },
     {
@@ -16,7 +16,7 @@ function Skills() {
       items: [
         { name: "Scikit-learn", level: 50, icon: <Image src="/images/icons/Scikit_learn_logo_small.svg.png" alt="Scikit-learn" width={50} height={50} /> },
         { name: "Machine Learning Algorithms", level: 35, icon: <Image src="/images/icons/artificial-intelligence.jpg" alt="Machine Learning Algorithms" width={50} height={50} /> },
-        { name: "Model Evaluation (F1, ROC-AUC, etc.)", level: 40, icon: "🔥" },
+        { name: "Computer Vision", level: 40, icon: <Image src="/images/icons/computer-vision.png" alt="Computer Vision" width={50} height={50} /> },
       ]
     },
     {
@@ -25,13 +25,13 @@ function Skills() {
         { name: "Matplotlib", level: 90, icon: <Image src="/images/icons/Matplotlib.png" alt="Matplotlib" width={50} height={50} /> },
         { name: "Seaborn", level: 85, icon: <Image src="/images/icons/Seaborn.svg" alt="Seaborn" width={50} height={50} /> },
         { name: "Plotly", level: 80, icon: <Image src="/images/icons/Plotly.png" alt="Plotly" width={50} height={50} /> },
-        { name: "Tableau", level: 75, icon: <Image src="/images/icons/Tableau.png" alt="Tableau" width={50} height={50} /> }
+        { name: "Power BI", level: 75, icon: <Image src="/images/icons/Power_BI.png" alt="Power BI" width={50} height={50} /> }
       ]
     },
     {
       category: "Tools & Technologies",
       items: [
-        { name: "Jupyter", level: 90, icon: <Image src="/images/icons/Jupyter.png" alt="Jupyter" width={50} height={50} /> },
+        { name: "Jupyter", level: 90, icon: <Image src="/images/icons/jupyter.png" alt="Jupyter" width={50} height={50} /> },
         { name: "GitHub", level: 30, icon: <Image src="/images/icons/GitHub.png" alt="GitHub" width={50} height={50} /> },
         { name: "Concepts of OOP", level: 10, icon: <Image src="/images/icons/OOP.png" alt="GitHub" width={50} height={50} /> }
       ]
@@ -84,7 +84,7 @@ function Skills() {
             Technologies I Work With
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {["NumPy", "Pandas", "OpenCV", "Spark", "SQL", "Excel", "Power BI"].map((tech, index) => (
+            {["NumPy", "Pandas", "OpenCV", "Scikit-learn", "SQL", "mediapipe", "Power BI"].map((tech, index) => (
               <span 
                 key={index}
                 className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors duration-200"
